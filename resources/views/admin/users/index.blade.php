@@ -3,6 +3,10 @@
 
 
 @section('content')
+    @if(Session::has('deleted_user'))
+        <p class="bg-danger">{{session('deleted_user')}}</p>
+
+
     <h1>User</h1>
     <table class="table table-hover">
         <thead>
