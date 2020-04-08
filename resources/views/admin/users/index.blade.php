@@ -5,6 +5,7 @@
 @section('content')
     @if(Session::has('deleted_user'))
         <p class="bg-danger">{{session('deleted_user')}}</p>
+        @endif
 
 
     <h1>User</h1>
@@ -23,10 +24,12 @@
         </thead>
         <tbody>
         @if($users)
+
             @foreach($users as $user)
+
           <tr>
             <td>{{$user->id}}</td>
-              <td><img src ="{{$user->photo ? $user->photo->file : 'no photo'}}"></td>
+              <td><img height="50" src ="{{asset($user->photo ? $user->photo->file : 'no photo')}}"></td>
               <td><a href = "{{route('users.edit',$user->id)}}">{{$user->name}}</a></td>
             <td>{{$user->email}}</td>
               <td>{{$user->role->name}}</td>
@@ -35,7 +38,9 @@
               <td>{{$user->updated_at->diffForHumans()}}</td>
           </tr>
           <tr>
+
           @endforeach
+
             @endif
         </tbody>
       </table>

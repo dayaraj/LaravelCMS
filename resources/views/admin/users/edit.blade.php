@@ -8,7 +8,7 @@
     <div class="row">
     <div class="col-sm-3">
 
-        <img src="{{$user->photo ? $user->photo->file : 'htttp://placehold.it/400*400'}}" class = "image-responsive img-rounded" alt="Photo">
+        <img src="{{asset($user->photo ? $user->photo->file : 'htttp://placehold.it/400*400')}}" height="130" class = "image-responsive img-rounded" alt="Photo">
 
     </div>
 
@@ -16,6 +16,7 @@
     <div class="col-sm-9">
 
     {!! Form::model($user,['method'=>'PATCH','action'=>['AdminUsersController@update',$user->id],'files'=> true]) !!}
+
 
     <div class="form-group">
         {!! Form::label('name','Name:') !!}

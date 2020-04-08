@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="96db137d-173c-469b-bea7-552e8a87c147" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
     </list>
@@ -156,7 +155,8 @@
       <option name="presentableId" value="Default" />
       <updated>1586148288571</updated>
       <workItem from="1586148294344" duration="25560000" />
-      <workItem from="1586233537430" duration="22541000" />
+      <workItem from="1586233537430" duration="22916000" />
+      <workItem from="1586357608165" duration="1346000" />
     </task>
     <servers />
   </component>
@@ -176,9 +176,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586186245537" />
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1586233601387">
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1586357654281">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586233601387" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586357654281" />
   </component>
 </project>
