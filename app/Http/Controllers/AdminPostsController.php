@@ -122,8 +122,18 @@ class AdminPostsController extends Controller
         $post->delete();
         return redirect('admin/posts');
 
+    }
 
-
+    public function post($id)
+    {
+        $post = Post::findorfail($id);
+        $comments = $post->comment()->whereIsActive(1)->get();
+        return view('layouts/post',compact('post','comments'));
 
     }
+
+
+
+
+
 }
